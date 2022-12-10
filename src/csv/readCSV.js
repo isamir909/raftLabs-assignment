@@ -1,10 +1,9 @@
 const fs = require("fs");
 const { parse } = require("csv-parse");
 // give path of the CSV file
-const inputFile = "../src/magazines.csv";
+const inputFile = "./magazines.csv";
 const mongodb = require("mongodb");
-const uri =
-"mongodb+srv://samirlohiya909:Lohiya123@samirlohiya.nszppy8.mongodb.net/raftLabs?retryWrites=true&w=majority";
+const uri ="mongodb+srv://samirlohiya909:Lohiya123@samirlohiya.nszppy8.mongodb.net/raftLabs?retryWrites=true&w=majority";
 
 // Inserting CSV data into Database
 const client = new mongodb.MongoClient(uri);
@@ -18,7 +17,7 @@ async function run(docs) {
     console.log(`${result.insertedCount} documents were inserted`);
   } finally {
     await client.close();
-  }
+  } 
 }
 let arrayOfJson = [];
 let parser = parse({ delimiter: ";" }, function (err, data) {
