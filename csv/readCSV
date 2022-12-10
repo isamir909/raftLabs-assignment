@@ -1,0 +1,6 @@
+STEP 1 :defile path of CSV file 
+STEP 2 :Mention collection on which we are inserting data in run function   
+STEP 3 :Change key according to CSV file   
+STEP 4 :pass name of key into cleanInputData function if dat contains null 
+STEP 5 :Run readCSV.js file to insert data
+
