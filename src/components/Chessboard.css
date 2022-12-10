@@ -1,0 +1,18 @@
+#chessboard{
+  display: grid;
+  grid-template-columns: repeat(8,100px);
+  grid-template-rows: repeat(8,100px);
+ width: 800px;
+ height: 800px;
+ background-color: #090a06;
+}
+.board-green-box{
+  background-color: #556B2F;
+}
+.board-white-box{
+  background-color: #c5c7c2;
+}
+
+.possibleWays{
+  background-color: red;
+}
