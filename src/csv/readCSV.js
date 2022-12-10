@@ -51,4 +51,4 @@ function cleanInputData(arr, field) {
   arr.pop();
   return arr;
 }
-
+module.exports={client}
