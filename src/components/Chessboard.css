@@ -6,13 +6,13 @@
  height: 800px;
  background-color: #090a06;
 }
-.board-green-box{
-  background-color: #556B2F;
-}
 .board-white-box{
-  background-color: #c5c7c2;
+  background-color: #d6c5c5;
+}
+.board-black-box{
+  background-color: #319128;
 }
 
 .possibleWays{
-  background-color: red;
+  background-color: rgb(113, 15, 170);
 }
