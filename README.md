@@ -18,6 +18,8 @@
 
 - Created project using Node.js and express.js and used NOSQL database MongoDB
 - for find operation used query params 
+- csv folder is used to receive CSV files and convert it to JSON and upload into mongoDB  
+- jsonToCSV folder is used to convert JSON file to csv file 
 
 
 ### Extra
