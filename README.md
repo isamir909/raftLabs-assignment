@@ -11,6 +11,7 @@
 
 - Created React app for this project 
 - To Download the project visit: https://github.com/isamir909/raftLabs-assignment.git
+- Deployment Link: https://chessboardknight.netlify.app/ 
 - After downloading run command  ` npm i ` to install all dependencies.
 - To run project : use command ` npm run start `
 - on the UI you will see chessBoard and when you click it will give possible places where knight can move.
